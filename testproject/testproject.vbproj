@@ -90,6 +90,7 @@
     <Content Include="Default.aspx" />
     <Content Include="page2.aspx" />
     <Content Include="page3.aspx" />
+    <Content Include="page4.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="page3.aspx.vb">
       <DependentUpon>page3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="page4.aspx.designer.vb">
+      <DependentUpon>page4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page4.aspx.vb">
+      <DependentUpon>page4.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
